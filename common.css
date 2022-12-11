@@ -1,0 +1,217 @@
+
+/*  this for the main website, background color   */
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color:gray;
+    padding: 0;
+   overflow-x: hidden;
+    color:black;
+}
+/* controls navgation bar spacing  */
+ ul {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.text-black{
+    color: black;
+   }
+
+    .name-text {    
+    font-size: 22px;    
+    }  
+
+    /* To control the navgation bar font size and the gap between */
+    .box {  
+    display: flex;    
+    list-style: none;  
+    gap: 16px;  
+    font-size: 18px;    
+    }
+   
+    /* to control the spacing inside the navgation bar */
+    .box li {
+    padding: 11px;
+    }
+    
+.content-center {
+    text-align: center;
+}
+
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+/* This for controlling the spaces between the columns */
+.row>* {
+    
+    max-width: 100%;
+    padding-left: 20px;
+    margin-top:20px;
+    padding-right: 20px;
+    max-width: 100%;
+    width: 100%;
+
+
+}
+
+/*  This is for adjusting the position of the columns      */
+.row {
+    margin-right: -20px;
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+/* this gives position to all the h number included*/
+ h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+
+/* this gives position to the all paragraphs and give it a font  */
+p {
+    margin-top: 0;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+
+.mb-5 {
+    margin-bottom: 48px;
+}
+.mt-5 {
+    margin-top: 48px;
+}
+h4 {
+    font-size: 20px;
+}
+
+.mb-2 {
+    margin-bottom: 8px;
+}
+
+.mt-3 {
+    margin-top: 8px;
+}
+
+/* content center */
+.justify-content-center {
+    justify-content: center!important;
+}
+.text-white{
+    color: white !important;
+}
+
+.pt-4 {
+    padding-top: 1.5rem!important;
+}
+
+.Text-on-right {
+    text-align: right!important;
+}
+
+
+/* this gives the h6 font size */
+ h6 {
+    font-size: 1rem;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+ /* this control the box size upon the content before and after */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.Icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+
+.Icons-ct {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+/* this is the color of the hover social media accounts  */
+.fa-instagram:hover,.fa-twitter:hover,.fa-snapchat:hover {
+    color: blue;
+}
+
+
+.fa {
+    color: black;
+}
+
+    /* controlling the sizes of the columns */
+    .column-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .column-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .column-6 {
+        flex: 0 0 auto;
+        width: 50%;
+      
+    }
+
+    .column-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+.navbar {
+    display: flex;  
+    padding: 15px;  
+    background-color: white;  
+    justify-content: space-between;  
+    align-items: center;  
+   }
+    
+    
+     h2 {
+        font-size: 2rem;
+    }
+     h1{
+        font-size: 2.5rem;
+        font-family:'Times New Roman';
+        font-weight: bold;
+    }
+    
+
+.FooterColor{
+    color: black;
+    padding: 22px;
+}
+.footer {
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.transfer a {  
+    text-decoration: none;
+  color: blue;
+  padding: 5px;
+  line-height: 5px;
+  
+  }
